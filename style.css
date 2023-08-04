@@ -188,7 +188,7 @@ form{
     background-image: url(images/banner2.jpg);
     background-size: cover;
 }
-@media only screen and (max-width:768px){
+@media only screen and (max-width:767px){
 .logo{
     margin-left: 0px;
     width: 200px;
@@ -211,19 +211,15 @@ form{
     margin-left: 40px;
     height: 200px;    
 }
-.text-center{
-    font-size: 30px;
-    color: green;
-}
 .text-start{
     font-size: 20px;
     margin-left: 20px;
 }
 .container-card{
-    margin-left: 40px;
+    margin: 0px 0px 10px 25px;
 }
 .cardbody{
-    margin-top:30px;
+    margin: 30px 60px 0px 0px;
 }
 .about-head{
     font-size: 20px;
@@ -291,8 +287,8 @@ form{
     font-size: 30px;
 }
 #exampleInputName1{
-    width: 200px;
-    height: 25px;
+    width: 210px;
+    height: 20px;
     margin-left: 5px;
 }
 #exampleInputName1:hover{
@@ -300,28 +296,187 @@ form{
 }
 .form-label{
     margin-left: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
+    font-size: 15px;
 }
 .form-text{
-    margin-left: 10px;
+    margin-left: 5px;
 }
 .form-check-label{
     margin-left: 5px;
-    font-size: 5px;
+    font-size: 15px;
 }
 .btn-register{
     margin-left: 50px;
 }
 form{
-    width: 250px;
-    height: 460px;
+    width: 260px;
+    height: 420px;
     padding: 20px;
-    margin: 15px 0px 0px 0px;
+    margin: 10px 0px 0px 8px;
 }
 #Create-Acc{
-    padding: 20px;
-    height: 600px;
+    padding: 5px;
+    height: auto;
     width: auto;
     margin: 0px;
 }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px){
+    .logo{
+        margin-left: 0px;
+    }
+    .homepg-header{
+        font-size: 35px;
+        margin-left: 5px;
+    }
+    .info{
+        font-size: 12px;
+        margin-left: 5px;
+    }
+    .btn1{
+        margin-left: 0px;
+    }
+    .homepg-mobile{
+        width: 320px;
+        margin-left: 10px;
+        height: 300px;    
+    }
+    .text-start{
+        margin-left: 15px;
+    }
+    .container-card{
+        margin: 0px 0px 0px 50px;
+    }
+    .cardbody{
+        margin: 50px 60px 0px 0px;
+    }
+    .about-head{
+        font-size: 25px;
+        margin-left: 10px;
+    }
+    .about-img{
+     height: 340px;
+     width: 350px;
+     margin: 100px 0px 0px 0px;
+     padding-bottom: 30px;
+    }
+    .stock-mobile{
+        height: 300px;
+        width: 250px;
+        margin: 0px 0px 0px 70px;
+    }
+    .testimonials-head{
+        margin: 50px 0px 0px 15px ;
+    }
+    .brand{
+        margin-left: 160px;
+    }
+    .testimonials-para{
+        font-size: 15px;
+        margin: 10px 0px 0px  0px ;
+    }
+    .btn2{
+        margin: 15px 0px 30px 100px;
+    }
+    .msg-center{
+        margin-left: 0px;
+    }
+    .sing-up-txt{
+        font-size: 20px; 
+    }
+    .sing-up{
+        padding: 10px 0px 30px 60px;
+    }
+    .singbtn{
+        font-size: 20px;
+        margin: 30px 0px 0px 120px;
+    }
+    .contact-txt{
+        font-size: 11px;
+        margin-left: 0px;
+    }
+    .contact-img{
+        height: 23px;
+        padding-right: 5px;
+    }
+    .uparrow-img{
+        height: 25px;
+    }
+    .contact-allimg{
+        margin-left: 130px;
+    }
+    #exampleInputName1{
+        width: 300px;
+    }
+    .form-label{
+        font-size: 20px;
+    }
+    .form-text{
+        margin-left: 5px;
+    }
+    form{
+        width: 370px;
+        padding: 20px;
+        margin: 10px 0px 0px 170px;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1300px){
+    .logo{
+        margin-left: 0px;
+    }
+    .homepg-header{
+        font-size: 45px;
+    }
+    .text-start{
+        margin-left: 63px;
+    }
+    .container-card{
+        margin: 0px 0px 0px 40px;
+    }
+    .about-img{
+     height: 440px;
+     width: 470px;
+    }
+    .stock-mobile{
+        height: 400px;
+        width: 300px;
+        margin: 0px 0px 0px 160px;
+    }
+    .testimonials-head{
+        margin: 100px 0px 0px 100px ;
+    }
+    .brand{
+        margin-left: 180px;
+    }
+    .testimonials-para{
+        margin: 10px 0px 0px  60px ;
+    }
+    .msg-center{
+        margin-left: 5px;
+    }
+    .sing-up-txt{
+        font-size: 30px; 
+    }
+    .sing-up{
+        padding: 10px 0px 30px 30px;
+    }
+    .singbtn{
+        margin: 30px 0px 0px 250px;
+    }
+    .contact-txt{
+        margin-left: 40px;
+    }
+    .contact-img{
+        padding-right: 2px;
+    }
+    .uparrow-img{
+        height: 25px;
+    }
+    .contact-allimg{
+        margin-left: 218px;
+    }
+    form{
+        margin: 10px 0px 0px 280px;
+    }
 }
