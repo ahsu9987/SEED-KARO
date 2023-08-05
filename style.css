@@ -6,36 +6,25 @@ body,html{
 #navbar{
     border-bottom: 4px solid green;
 }
-.nav-item{
-    margin-right: 20px;
-}
 .homepg-header{
     color: green;
     font-size: 60px;
     margin-left: 150px;
     text-transform: capitalize;
 }
+.btn{
+    margin-left: 150px;
+}
 .homepg-mobile{
-    height: 350px;
-    width: 500px;
+    height: 420px;
+    width: 600px;
 }
 .info{
     font-size: 16px;
     text-transform: capitalize;
     margin-left: 150px;
 }
-.logo{
-    margin-left: 180px;
-}
-.btn1{
-    background-color: rgb(69, 221, 69);
-    color: white;
-    border-radius: 24px;
-    padding: 11px 43px;
-    border: none;
-    margin-left: 150px;
-}
-.text-center{
+.text-center {
     font-size: 40px;
     color: green;
 }
@@ -189,10 +178,6 @@ form{
     background-size: cover;
 }
 @media only screen and (max-width:767px){
-.logo{
-    margin-left: 0px;
-    width: 200px;
-}
 .homepg-header{
     font-size: 30px;
     margin-left: 10px;
@@ -201,15 +186,13 @@ form{
     font-size: 10px;
     margin-left: 10px;
 }
-.btn1{
-    border-radius: 10px;
-    padding: 5px 15px;
-    margin-left: 0px;
+.btn{
+    margin-left: 10px;
+
 }
 .homepg-mobile{
-    width: 300px;
-    margin-left: 40px;
-    height: 200px;    
+    width: 350px;
+    height: 280px;    
 }
 .text-start{
     font-size: 20px;
