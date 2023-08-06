@@ -1,33 +1,19 @@
 body,html{
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden;
 }
-#navbar{
+.navbar{
     border-bottom: 4px solid green;
 }
 .homepg-header{
-    color: green;
     font-size: 60px;
     margin-left: 150px;
-    text-transform: capitalize;
 }
 .btn{
     margin-left: 150px;
 }
-.homepg-mobile{
-    height: 420px;
-    width: 600px;
-}
 .info{
-    text-transform: capitalize;
     margin-left: 150px;
-}
-.color-green{
-    color: green;
-}
-.color-black{
-    color: black; 
 }
 .text-start{
     margin-left: 140px ;
@@ -37,9 +23,6 @@ body,html{
 }
 .carrd-para{
     font-size: 15px;
-}
-.about-head{
-    margin-left: 150px;
 }
 .testimonials-head{
     font-size: 50px;
@@ -54,13 +37,9 @@ body,html{
 .msg-img{
     border-radius: 50px;
 }
-.bg-green{
-    background-color: green;
-    color: white;
-}
 .singup-btn{
-    border-radius: 30px;
-    padding: 5px 30px 5px 30px;
+    background-color: white;
+    color: black;
 } 
 .contact-img{
     height: 25px;
@@ -68,12 +47,11 @@ body,html{
 .uparrow-img{
     height: 35px;
 }
-.btn-register{
-    border-radius: 60px!important;
-    padding: 5px 20px 5px 20px;
+.form-control{
+    width: 430px;
 }
-.btn-register:hover{
-    background-color: lightgreen;
+.rounded-pill:hover{
+    background-color: darkgreen;
     color: black;
 }
 #Create-Acc{
@@ -99,22 +77,22 @@ body,html{
 .text-start{
     margin-left: 50px;
 }
+.firstbox-margin-top{
+    margin-top: 0px!important;
+}
 .card-logo{
     margin-left: 90px;
 }
 .padding-row{
     padding: 30px;
 }
-.about-head{
-    margin-left: 10px;
-}
 .testimonials-head{
-    font-size: 25px;
-    margin: 0px 0px 0px 50px ;
+    font-size: 28px;
+    margin: 0px 0px 0px 40px ;
 }
 .testimonials-para{
-    font-size: 9px!important;
-    margin-left: 45px!important;
+    font-size: 10px!important;
+    margin-left: 36px!important;
 }
 .brand{
     margin-left:100px;
@@ -133,9 +111,6 @@ margin-top: 25px;
     font-size: 10px!important;
     margin-right: 0px!important;
 } 
-.padding-no{
-    padding: 0px!important;
-}
 .contact-img{
     height: 15px;
     margin-right: 0px!important;
@@ -145,26 +120,15 @@ margin-top: 25px;
 }
 .footer-size{
   font-size: 10px;
-  margin-top: 10px;
-  margin-left: 0px!important;
 }
-/* #exampleInputName1{
-    width: 210px;
-    height: 20px;
-    margin-left: 5px;
-} */
-#exampleInputName1:hover{
+.form-control{
+    width: 250px;
+}
+.form-control:hover{
     box-shadow: 0px 0px 2px 0px green;
 }
-
-/* #Create-Acc{
-    padding: 5px;
-    height: auto;
-    width: auto;
-    margin: 0px;
-} */
 }
-@media only screen and (min-width: 768px) and (max-width: 992px){
+/* @media only screen and (min-width: 768px) and (max-width: 992px){
     .logo{
         margin-left: 0px;
     }
@@ -321,4 +285,4 @@ margin-top: 25px;
     form{
         margin: 10px 0px 0px 280px;
     }
-}
+} */
