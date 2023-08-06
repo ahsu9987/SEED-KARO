@@ -1,7 +1,6 @@
 body,html{
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden;
 }
 .navbar{
     border-bottom: 4px solid green;
@@ -85,9 +84,6 @@ body,html{
 .firstbox-margin-top{
     margin-top: 0px!important;
 }
-/* .padding-row{
-    padding: 40px;
-} */
 .testimonials-head{
     font-size: 25px;
     text-align: center;
@@ -101,7 +97,7 @@ body,html{
     margin-left:5px;
 }
 .btn-margin-left{
-    margin-left: 80px!important;
+    margin-left: 85px!important;
 }
 .margintop{
     margin-top: 30px!important;
@@ -115,9 +111,12 @@ margin-top: 25px;
     margin-right: 0px!important;
 } 
 .contact-img{
-    height: 15px;
-    margin-right: 0px!important;
+    height: 14px;
+    margin-left: 0px!important;
     }
+.uparrow-img{
+    height: 5px;
+}
 .last-para{
     font-size: 14px;
     }
@@ -125,7 +124,8 @@ margin-top: 25px;
     height: 20px;
 }
 .footer-size{
-  font-size: 10px;
+  font-size: 9px;
+  margin-left: 0px;
 }
 .form-control{
     width: 250px;
