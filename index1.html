@@ -8,96 +8,107 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p class="text-center">SingUp-Page</p>
-<section id="navbar">
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-            <img src="images/logo.png" width="200" alt="" class="logo">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0  ">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#feature"> OUR FEATURE</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#about-us-para"> ABOUT US</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#contact"> CONTACT</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  MY ACCOUNT
-                </a>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#Create-Acc">Sing-Up</a></li>
-                    <li><a class="dropdown-item" href="#Create-Acc">Login</a></li>
-                  </ul>                    
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </section> 
+    <p class="container-fluid text-center fs-1 bg-dark text-light p-4">SingUp-Page</p>
+    <section id="navbar">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container">
+                <img src="images/logo.png" width="200" alt="" class="logo">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0  ">
+                  <li class="nav-item">
+                    <a class="nav-link active me-2" aria-current="page" href="#home-page">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active ms-2" href="#feature"> OUR FEATURE</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active me-2" href="#about-us-para"> ABOUT US</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active ms-2" href="#contact"> CONTACT</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active ms-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      MY ACCOUNT
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="index1.html">Sing-Up</a></li>
+                      <li><a class="dropdown-item" href="#Create-Acc">Login</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </section>
 
     <section id="Create-Acc">
     <div class="container-fluid p-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-4 bg-light p-4">
         <form>
-            <p class="acc-txt">Create Account</p>
+            <p class="text-start ms-1 fs-1 text-success">Create Account</p>
             <div class="mb-3">
-                <label for="exampleInputName1" class="form-label">Full Name</label>
-                <input type="text" class="form-control" id="exampleInputName1">
+                <label for="exampleInputName1" class="form-label text-center">Full Name</label>
+                <input type="text" class="form-control" style="width: 430px;" id="exampleInputName1">
               </div>
             <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="exampleInputName1" aria-describedby="emailHelp">
+              <label for="exampleInputEmail1" class="form-label text-center">Email address</label>
+              <input type="email" class="form-control" style="width: 430px;" id="exampleInputName1" aria-describedby="emailHelp">
               <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
             </div>
             <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Password</label>
-              <input type="password" class="form-control" id="exampleInputName1">
+              <label for="exampleInputPassword1" class="form-label text-center">Password</label>
+              <input type="password" class="form-control" style="width: 430px;" id="exampleInputName1">
             </div>
-            <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            <div class="form-check mb-3">
+              <input type="checkbox" class="form-check-input ms-0" style="width:20px; height: 20px;" id="exampleCheck1">
+              <label class="form-check-label ms-2" for="exampleCheck1">Check me out</label>
             </div>
-            <button onclick="window.location.href='https://media.publit.io/file/q_80/chrmpWebsite/thank-you-form.png';" type="button" class="btn-register">REGISTER</button>
+            <button onclick="window.location.href='https://media.publit.io/file/q_80/chrmpWebsite/thank-you-form.png';" type="button" class="btn btn-success btn-register ms-4">REGISTER</button>
           </form>
+          </div>
+        </div>
+    </div>
+    </section>
+
+    
+    <section id="contact">
+        <div class="container-fluid bg-dark p-4">
+          <div class="d-flex justify-content-between">
+            <p class="text-start text-success footer-size">© 2014 ARK Studio - All Rights Reserved Contact:AhsanAnsari:-8433525372</p>
+            <div class="contact-allimg">
+              <a class="navbar-brand" href="https://www.facebook.com/ahsan.anaari.10">
+                  <img src="images/fb.png" alt="fb" class="contact-img img-fluid">
+                </a>
+                <a class="navbar-brand" href="https://twitter.com/?lang=en-in">
+                  <img src="images/tweet.png" alt="tweet" class="contact-img img-fluid ms-2">
+                </a>
+                <a class="navbar-brand" href="https://www.linkedin.com/in/ahsan-ansari-ba670a18a/">
+                  <img src="images/linkined.png" alt="linkined" class="contact-img img-fluid ms-2">
+                </a>
+                <a class="navbar-brand" href="https://www.instagram.com/ahsu384/?hl=en">
+                  <img src="images/insta.png" alt="insta" class="contact-img img-fluid ms-2">
+                </a>
+                <a class="navbar-brand" href="https://chat.whatsapp.com/Gji70DitHuvLqHuCpRk2vI">
+                  <img src="images/phone.png" alt="phone" class="contact-img img-fluid ms-2">
+                </a>
+                <a class="navbar-brand" href="mailto:ahsanansari75862@gmail.com">
+                  <img src="images/message.png" alt="message" class="contact-img img-fluid ms-2">
+                </a>
+                <a class="navbar-brand" href="#">
+                  <img src="images/uparrow.png" alt="uparrow" class="uparrow-img img-fluid bg-green ms-2">
+                </a>
+              </div>
+          </div>
         </div>
     </section>
 
-      <section id="contact">
-        <div class="container-fluid bg-dark p-4">
-        <span class="contact-txt">© 2014 ARK Studio - All Rights Reserved Contact:AhsanAnsari:-8433525372</span>  
-        <span class="contact-allimg">
-            <a class="navbar-brand" href="https://www.facebook.com/ahsan.anaari.10">
-                <img src="images/fb.png" alt="fb" class="contact-img">
-              </a>
-              <a class="navbar-brand" href="https://twitter.com/?lang=en-in">
-                <img src="images/tweet.png" alt="tweet" class="contact-img">
-              </a>
-              <a class="navbar-brand" href="https://www.linkedin.com/in/ahsan-ansari-ba670a18a/">
-                <img src="images/linkined.png" alt="linkined" class="contact-img">
-              </a>
-              <a class="navbar-brand" href="https://www.instagram.com/ahsu384/?hl=en">
-                <img src="images/insta.png" alt="insta" class="contact-img">
-              </a>
-              <a class="navbar-brand" href="https://chat.whatsapp.com/Gji70DitHuvLqHuCpRk2vI">
-                <img src="images/phone.png" alt="phone" class="contact-img">
-              </a>
-              <a class="navbar-brand" href="mailto:ahsanansari75862@gmail.com">
-                <img src="images/message.png" alt="message" class="contact-img">
-              </a>
-              <a class="navbar-brand" href="#">
-                <img src="images/uparrow.png" alt="uparrow" class="uparrow-img">
-              </a>
-        </span>
-        </div>
-    </section>
+ 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
 </body>
 </html>

@@ -20,158 +20,61 @@ body,html{
     width: 600px;
 }
 .info{
-    font-size: 16px;
     text-transform: capitalize;
     margin-left: 150px;
 }
-.text-center {
-    font-size: 40px;
+.color-green{
     color: green;
+}
+.color-black{
+    color: black; 
 }
 .text-start{
-    font-size: 30px;
-    margin-left: 200px;
-}
-.container-card{
-    margin-left: 180px;
-}
-.cardbody{
-    padding: 20px; 
-    width: 300px;
-    box-shadow: 0px 0px 10px 0px black;
-    height: 250px;
+    margin-left: 140px ;
 }
 .card-logo{
-    margin-left: 95px;
-    padding-bottom: 10px;
+    margin-left: 150px;
 }
-.card-head{
-    font-size: 22px;
-    color: green;
+.carrd-para{
+    font-size: 15px;
 }
 .about-head{
-    font-size: 35px;
     margin-left: 150px;
-    color: green;
-    margin-bottom: 30px;
-}
-.about-img{
- height: 400px;
- width: 500px;
- margin-top: 110px;
-}
-.stock-mobile{
-    height: 500px;
-    width: 400px;
-    margin-left: 200px;
-    margin-bottom: 30px;
 }
 .testimonials-head{
-    font-size: 40px;
-    color: green;
-    margin: 150px 0px 0px 100px ;
+    font-size: 50px;
+    margin: 190px 0px 0px 60px ;
 }
 .brand{
-    margin-left: 170px;
+    margin-left: 190px;
 }
-.testimonials-para{
-    font-size: 17px;
-    margin: 10px 0px 0px 70px ;
-}
-.btn2{
-    background-color: rgb(69, 221, 69);
-    color: white;
-    border-radius: 24px;
-    padding: 11px 43px;
-    border: none;
-    margin-left: 180px;
-}
-.msg-center{
-    margin-left: 300px;
+.btn-margin-left{
+    margin-left: 180px!important;
 }
 .msg-img{
     border-radius: 50px;
-    padding: 10px;
-    height: 100px;
-    width: 100px;
-    margin-bottom: 30px;
 }
-.sing-up-txt{
-    font-size: 35px; 
+.bg-green{
+    background-color: green;
     color: white;
 }
-.sing-up{
-    background-color: green;
-    padding: 60px 0px 60px 200px;
-}
-.singbtn{
-    font-size: 24px;
+.singup-btn{
     border-radius: 30px;
     padding: 5px 30px 5px 30px;
-    border: none;
-    margin-left: 300px;
-}
-.contact-txt{
-    color: green;
-    font-size: 15px;
-    margin-left: 150px;
-    padding-top: 10px;
-}
+} 
 .contact-img{
     height: 25px;
-    padding-right: 10px;
 }
 .uparrow-img{
     height: 35px;
-    background-color: green;
-}
-.contact-allimg{
-    margin-left: 500px;
-}
-.singup-head{
-    font-size: 30px;
-    margin: 50px 0px 20px 100px;
-    color: gray;
-}
-.acc-txt{
-    font-size: 40px;
-    color: green;
-}
-#exampleInputName1{
-    width: 400px;
-    margin-left: 10px;
-}
-.form-label{
-    margin-left: 10px;
-}
-.form-text{
-    margin-left: 20px;
-}
-.form-check-label{
-    margin-left: 10px;
 }
 .btn-register{
-    background-color: green;
-    color: white;
-    border: none;
-    margin-left: 30px;
-    border-radius: 50px;
-    padding: 5px 20px 5px 20px ;
+    border-radius: 60px!important;
+    padding: 5px 20px 5px 20px;
 }
 .btn-register:hover{
     background-color: lightgreen;
     color: black;
-}
-#exampleCheck1{
-    margin-left: 10px;
-}
-form{
-    box-shadow: 0px 0px 10px 0px black;
-    border-radius: 10px;
-    background-color: white;
-    width: 500px;
-    padding: 40px;
-    margin: 50px 0px 0px 450px;
 }
 #Create-Acc{
     background-image: url(images/banner2.jpg);
@@ -183,127 +86,83 @@ form{
     margin-left: 10px;
 }
 .info{
-    font-size: 10px;
+    font-size: 12px;
     margin-left: 10px;
 }
 .btn{
     margin-left: 10px;
-
 }
 .homepg-mobile{
-    width: 350px;
+    width: 370px;
     height: 280px;    
 }
 .text-start{
-    font-size: 20px;
-    margin-left: 20px;
+    margin-left: 50px;
 }
-.container-card{
-    margin: 0px 0px 10px 25px;
+.card-logo{
+    margin-left: 90px;
 }
-.cardbody{
-    margin: 30px 60px 0px 0px;
+.padding-row{
+    padding: 30px;
 }
 .about-head{
-    font-size: 20px;
-    margin-left: 20px;
-    margin-bottom: 30px;
-}
-.about-img{
- height: 250px;
- width: 300px;
- margin: 0px 0px 0px 30px;
- padding-bottom: 30px;
-}
-.stock-mobile{
-    height: 250px;
-    width: 200px;
-    margin: 0px 0px 0px 90px;
+    margin-left: 10px;
 }
 .testimonials-head{
     font-size: 25px;
-    margin: 0px 0px 0px 100px ;
-}
-.brand{
-    margin-left: 130px;
+    margin: 0px 0px 0px 50px ;
 }
 .testimonials-para{
-    font-size: 13px;
-    margin: 10px 0px 0px 40px ;
+    font-size: 9px!important;
+    margin-left: 45px!important;
 }
-.btn2{
-    border-radius: 10px;
-    padding: 5px 15px;
-    margin: 15px 0px 30px 130px;
+.brand{
+    margin-left:100px;
 }
-.msg-center{
-    margin-left: 15px;
+.btn-margin-left{
+    margin-left: 90px!important;
 }
-.sing-up-txt{
-    font-size: 15px; 
+.card-body{
+    font-size: 15px!important;
 }
-.sing-up{
-    padding: 10px 0px 10px 10px;
+.footer-txt{
+font-size:10px!important ;
+margin-top: 25px;
 }
-.singbtn{
-    font-size: 10px;
-    padding: 2px 10px 2px 10px;
-    margin-left: 30px;
-}
-.contact-txt{
-    font-size: 6px;
-    margin-left: 0px;
-    padding-top: 5px;
+.singup-btn{
+    font-size: 10px!important;
+    margin-right: 0px!important;
+} 
+.padding-no{
+    padding: 0px!important;
 }
 .contact-img{
     height: 15px;
-    padding-right: 0px;
-}
+    margin-right: 0px!important;
+    }
 .uparrow-img{
-    height: 18px;
-    background-color: green;
+    height: 20px;
 }
-.contact-allimg{
-    margin-left: 12px;
+.footer-size{
+  font-size: 10px;
+  margin-top: 10px;
+  margin-left: 0px!important;
 }
-.acc-txt{
-    font-size: 30px;
-}
-#exampleInputName1{
+/* #exampleInputName1{
     width: 210px;
     height: 20px;
     margin-left: 5px;
-}
+} */
 #exampleInputName1:hover{
     box-shadow: 0px 0px 2px 0px green;
 }
-.form-label{
-    margin-left: 10px;
-    padding-bottom: 0px;
-    font-size: 15px;
-}
-.form-text{
-    margin-left: 5px;
-}
-.form-check-label{
-    margin-left: 5px;
-    font-size: 15px;
-}
-.btn-register{
-    margin-left: 50px;
-}
-form{
-    width: 260px;
-    height: 420px;
-    padding: 20px;
-    margin: 10px 0px 0px 8px;
-}
-#Create-Acc{
+
+/* #Create-Acc{
     padding: 5px;
     height: auto;
     width: auto;
     margin: 0px;
-}
+} */
 }
 @media only screen and (min-width: 768px) and (max-width: 992px){
     .logo{
