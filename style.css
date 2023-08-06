@@ -1,6 +1,7 @@
 body,html{
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden;
 }
 .navbar{
     border-bottom: 4px solid green;
@@ -14,25 +15,23 @@ body,html{
 }
 .info{
     margin-left: 150px;
+    font-size: 17px;
 }
 .text-start{
     margin-left: 140px ;
-}
-.card-logo{
-    margin-left: 150px;
 }
 .carrd-para{
     font-size: 15px;
 }
 .testimonials-head{
     font-size: 50px;
-    margin: 190px 0px 0px 60px ;
+    margin: 50px 0px 0px 60px ;
 }
 .brand{
     margin-left: 190px;
 }
 .btn-margin-left{
-    margin-left: 180px!important;
+    margin-left: 180px;
 }
 .msg-img{
     border-radius: 50px;
@@ -43,6 +42,9 @@ body,html{
 } 
 .contact-img{
     height: 25px;
+}
+.last-para{
+    font-size: 18px;
 }
 .uparrow-img{
     height: 35px;
@@ -80,31 +82,29 @@ body,html{
 .firstbox-margin-top{
     margin-top: 0px!important;
 }
-.card-logo{
-    margin-left: 90px;
-}
 .padding-row{
     padding: 30px;
 }
 .testimonials-head{
-    font-size: 28px;
-    margin: 0px 0px 0px 40px ;
+    font-size: 25px;
+    text-align: center;
+    margin: 0px 0px 0px 25px ;
 }
 .testimonials-para{
-    font-size: 10px!important;
-    margin-left: 36px!important;
+    font-size: 15px!important;
+    text-align: center;
 }
 .brand{
-    margin-left:100px;
+    margin-left:5px;
 }
 .btn-margin-left{
-    margin-left: 90px!important;
+    margin-left: 80px!important;
 }
 .card-body{
     font-size: 15px!important;
 }
 .footer-txt{
-font-size:10px!important ;
+font-size:13px!important ;
 margin-top: 25px;
 }
 .singup-btn{
@@ -114,6 +114,9 @@ margin-top: 25px;
 .contact-img{
     height: 15px;
     margin-right: 0px!important;
+    }
+.last-para{
+    font-size: 14px;
     }
 .uparrow-img{
     height: 20px;
@@ -127,162 +130,7 @@ margin-top: 25px;
 .form-control:hover{
     box-shadow: 0px 0px 2px 0px green;
 }
+.info{
+    font-size: 16px!important;
 }
-/* @media only screen and (min-width: 768px) and (max-width: 992px){
-    .logo{
-        margin-left: 0px;
-    }
-    .homepg-header{
-        font-size: 35px;
-        margin-left: 5px;
-    }
-    .info{
-        font-size: 12px;
-        margin-left: 5px;
-    }
-    .btn1{
-        margin-left: 0px;
-    }
-    .homepg-mobile{
-        width: 320px;
-        margin-left: 10px;
-        height: 300px;    
-    }
-    .text-start{
-        margin-left: 15px;
-    }
-    .container-card{
-        margin: 0px 0px 0px 50px;
-    }
-    .cardbody{
-        margin: 50px 60px 0px 0px;
-    }
-    .about-head{
-        font-size: 25px;
-        margin-left: 10px;
-    }
-    .about-img{
-     height: 340px;
-     width: 350px;
-     margin: 100px 0px 0px 0px;
-     padding-bottom: 30px;
-    }
-    .stock-mobile{
-        height: 300px;
-        width: 250px;
-        margin: 0px 0px 0px 70px;
-    }
-    .testimonials-head{
-        margin: 50px 0px 0px 15px ;
-    }
-    .brand{
-        margin-left: 160px;
-    }
-    .testimonials-para{
-        font-size: 15px;
-        margin: 10px 0px 0px  0px ;
-    }
-    .btn2{
-        margin: 15px 0px 30px 100px;
-    }
-    .msg-center{
-        margin-left: 0px;
-    }
-    .sing-up-txt{
-        font-size: 20px; 
-    }
-    .sing-up{
-        padding: 10px 0px 30px 60px;
-    }
-    .singbtn{
-        font-size: 20px;
-        margin: 30px 0px 0px 120px;
-    }
-    .contact-txt{
-        font-size: 11px;
-        margin-left: 0px;
-    }
-    .contact-img{
-        height: 23px;
-        padding-right: 5px;
-    }
-    .uparrow-img{
-        height: 25px;
-    }
-    .contact-allimg{
-        margin-left: 130px;
-    }
-    #exampleInputName1{
-        width: 300px;
-    }
-    .form-label{
-        font-size: 20px;
-    }
-    .form-text{
-        margin-left: 5px;
-    }
-    form{
-        width: 370px;
-        padding: 20px;
-        margin: 10px 0px 0px 170px;
-    }
 }
-@media only screen and (min-width: 992px) and (max-width: 1300px){
-    .logo{
-        margin-left: 0px;
-    }
-    .homepg-header{
-        font-size: 45px;
-    }
-    .text-start{
-        margin-left: 63px;
-    }
-    .container-card{
-        margin: 0px 0px 0px 40px;
-    }
-    .about-img{
-     height: 440px;
-     width: 470px;
-    }
-    .stock-mobile{
-        height: 400px;
-        width: 300px;
-        margin: 0px 0px 0px 160px;
-    }
-    .testimonials-head{
-        margin: 100px 0px 0px 100px ;
-    }
-    .brand{
-        margin-left: 180px;
-    }
-    .testimonials-para{
-        margin: 10px 0px 0px  60px ;
-    }
-    .msg-center{
-        margin-left: 5px;
-    }
-    .sing-up-txt{
-        font-size: 30px; 
-    }
-    .sing-up{
-        padding: 10px 0px 30px 30px;
-    }
-    .singbtn{
-        margin: 30px 0px 0px 250px;
-    }
-    .contact-txt{
-        margin-left: 40px;
-    }
-    .contact-img{
-        padding-right: 2px;
-    }
-    .uparrow-img{
-        height: 25px;
-    }
-    .contact-allimg{
-        margin-left: 218px;
-    }
-    form{
-        margin: 10px 0px 0px 280px;
-    }
-} */
