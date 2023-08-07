@@ -38,10 +38,6 @@ body,html{
 .msg-txt{
     font-size: 15px;
 }
-.singup-btn{
-    background-color: white;
-    color: black;
-} 
 .contact-img{
     height: 25px;
 }
@@ -53,10 +49,6 @@ body,html{
 }
 .form-control{
     width: 430px;
-}
-.rounded-pill:hover{
-    background-color: darkgreen;
-    color: black;
 }
 #Create-Acc{
     background-image: url(images/banner2.jpg);
