@@ -7,14 +7,12 @@ body,html{
 }
 .homepg-header{
     font-size: 60px;
-    margin-left: 150px;
-}
-.btn{
-    margin-left: 150px;
 }
 .info{
-    margin-left: 150px;
     font-size: 17px;
+}
+.mgleft{
+    margin-left: 150px;
 }
 .text-start{
     margin-left: 140px ;
@@ -23,29 +21,20 @@ body,html{
     font-size: 15px;
 }
 .testimonials-head{
-    font-size: 50px;
-    margin: 50px 0px 0px 60px ;
+    margin: 50px 0px 0px 100px ;
+    text-align: center;
 }
-.brand{
-    margin-left: 190px;
+.testimonials-para{
+    text-align: center;
 }
 .btn-margin-left{
-    margin-left: 180px;
-}
-.msg-img{
-    border-radius: 50px;
-}
-.msg-txt{
-    font-size: 15px;
+    margin-left: 220px;
 }
 .contact-img{
     height: 25px;
 }
-.last-para{
-    font-size: 18px;
-}
 .uparrow-img{
-    height: 35px;
+    height: 25px;
 }
 .form-control{
     width: 430px;
@@ -57,13 +46,8 @@ body,html{
 @media only screen and (max-width:767px){
 .homepg-header{
     font-size: 30px;
-    margin-left: 10px;
 }
-.info{
-    font-size: 12px;
-    margin-left: 10px;
-}
-.btn{
+.mgleft{
     margin-left: 10px;
 }
 .homepg-mobile{
@@ -74,26 +58,20 @@ body,html{
     margin-left: 10px;
 }
 .testimonials-head{
-    font-size: 25px;
-    text-align: center;
     margin: 0px 0px 0px 25px ;
 }
 .testimonials-para{
     font-size: 15px!important;
-    text-align: center;
-}
-.brand{
-    margin-left:5px;
 }
 .btn-margin-left{
-    margin-left: 85px!important;
+    margin-left: 84px!important;
 }
 .card-margintop{
     margin-top: 30px!important;
 }
 .footer-txt{
-font-size:13px!important ;
-margin-top: 25px;
+    font-size:13px!important ;
+    margin-top: 25px;
 }
 .singup-btn{
     font-size: 10px!important;
@@ -102,12 +80,6 @@ margin-top: 25px;
 .contact-img{
     height: 14px;
     margin-left: 0px!important;
-    }
-.last-para{
-    font-size: 14px;
-    }
-.uparrow-img{
-    height: 20px;
 }
 .footer-size{
   font-size: 9px;
@@ -123,7 +95,7 @@ margin-top: 25px;
     font-size: 16px!important;
 }
 }
-@media only screen  and (min-width:768px) and (max-width:992px){
+/* @media only screen  and (min-width:768px) and (max-width:992px){
 .homepg-header{
     margin-left: 10px;
 }
@@ -159,4 +131,4 @@ margin-top: 25px;
 .form-control{
     width: 650px;
 }
-}
+} */
