@@ -64,40 +64,14 @@ body,html{
     box-shadow: 0px 0px 2px 0px green;
 }
 }
-/* @media only screen  and (min-width:768px) and (max-width:992px){
-.homepg-header{
-    margin-left: 10px;
-}
-.info{
-    margin-left: 10px;
-}
-.btn{
-    margin-left: 10px;
-}
+ @media only screen  and (min-width:768px) and (max-width:992px){
 .homepg-mobile{
     margin-left: 100px;   
-}
-.text-start{
-    margin-left: 10px;
 }
 .cardbody{
     margin-bottom: 20px;
 }
-.btn-margin-left{
-    margin-left: 180px!important;
-}
-.footer-txt{
-    font-size:20px!important ;
-    margin-top: 20px;
-}
-.uparrow-img{
-    height: 30px;
-}
-.footer-size{
-  font-size: 12px;
-  margin-left: 0px;
-}
 .form-control{
     width: 650px;
 }
-} */
+} 
