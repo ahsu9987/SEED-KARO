@@ -19,11 +19,24 @@ body,html{
 }
 .form-control{
     width: 430px;
+    border: 1px solid black;
 }
 #Create-Acc{
     background-image: url(images/banner2.jpg);
     background-size: cover;
 }
+.input-control input:focus{
+ outline: 0;
+}
+
+.input-control.success input{
+    border: 1px solid green;
+   }
+   .input-control.error input{
+    border: 1px solid red;
+   }
+
+  
 @media only screen and (max-width:767px){
 .homepg-header{
     font-size: 30px;
